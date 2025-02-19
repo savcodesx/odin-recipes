@@ -1,0 +1,40 @@
+h1 {
+    color: pink;
+    background-color: forestgreen;
+    font-size: 60px;
+    font-family: 'Fantasy', 'Copperplate', cursive, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+p {
+    color: forestgreen;
+    background-color: pink;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+ol {
+    color: pink;
+    background-color: forestgreen;
+    font-size: 20px;
+    text-align: center;
+    padding: .5px;
+    margin: 0;
+}
+li {
+    color: forestgreen;
+    background-color: pink;
+    font-size: 20px;
+    text-align: center;
+    padding: .5px;
+    margin: 0;
+}
