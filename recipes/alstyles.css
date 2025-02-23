@@ -1,4 +1,9 @@
 /* this is a comment */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html {
     background-color: pink;
     font-family: "Comic Sans MS", cursive, sans-serif;
@@ -8,14 +13,19 @@ h1 {
     background-color: rgb(3, 121, 115);
     font-size: 50px;
     text-align: center;
-    margin: 0;
+    margin: 10px;
+    padding: 10px; 
 }
 img {
-    display: block;
-    padding: 10px;
+    display: flex;
+    padding: 20px;
+    border: 10px solid rgb(3, 121, 115);
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: auto;
+    height: 200px;
+    box-shadow: 0 0 10px rgb(3, 121, 115);
+    transition: transform 0.3s ease;
 }
 h4 {
     color: rgb(3, 121, 115);
